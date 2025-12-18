@@ -6,9 +6,9 @@ import Image from 'next/image';
 import { Download } from 'lucide-react';
 
 const software = [
-  { name: 'Maya', icon: '/Autodesk_23627.png' },
+  { name: 'Maya', icon: '/maya.png' },
   { name: 'Substance Painter', icon: '/substance-3d-painter.png' },
-  { name: 'Zbrush', icon: '/zbrush_icon-icons.com_50712.png' },
+  { name: 'Zbrush', icon: '/zbrush.png' },
   { name: 'Marmoset Toolbag', icon: '/marmoset.png' },
   { name: 'Marvelous Designer', icon: '/marvelous.png' },
 ];

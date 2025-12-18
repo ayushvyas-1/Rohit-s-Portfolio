@@ -1,11 +1,23 @@
 import { Project, Skill } from '../types';
+/**
+ * Cybertruck - maya , Substance painter , marmoset toolbag , UE , after effect 
 
+Radio - maya , Substance painter, photoshop , marmoset toolbag
+
+Gun - maya , Substance painter , marmoset 
+
+Headphone - maya , zbrush , Substance painter , marmoset toolbag 
+
+Medicine cabinet- maya , zbrush , Substance painter, marmoset toolbag 
+
+War helmet- maya , Substance painter, marmoset toolbag
+ */
 export const projects: Project[] = [
   {
     "id": "cybertruck",
     "title": "Cybertruck",
     "category": "3D Art",
-    "thumbnail": "https://res.cloudinary.com/dpozqchuo/image/upload/f_auto,q_auto/v1765430365/render5_Cam_FullQuality_gl6afe.png",
+    "thumbnail": "https://res.cloudinary.com/dpozqchuo/image/upload/f_auto,q_auto/v1765430368/IMG_6763_gpo5oq.jpg",
     "images": [
       "https://res.cloudinary.com/dpozqchuo/video/upload/f_auto,q_auto/v1765430363/final1_gmxc0e.mp4",
       "https://res.cloudinary.com/dpozqchuo/image/upload/f_auto,q_auto/v1765430365/render5_Cam_FullQuality_gl6afe.png",
@@ -28,7 +40,7 @@ export const projects: Project[] = [
       "https://res.cloudinary.com/dpozqchuo/image/upload/f_auto,q_auto/v1765430362/BG_Moduler_Parts_BreakDown_cjv3vt.jpg"
     ],
     "description": "High-quality 3D render of Cybertruck. Showcasing detailed modeling and texturing.",
-    "software": [],
+    "software": ["Maya", "Substance painter", "Marmoset toolbag", "UE", "After effect"],
     "date": "Dec 2025",
     "likes": 0,
     "views": 0
@@ -37,7 +49,7 @@ export const projects: Project[] = [
     "id": "game-ready-gun",
     "title": "Game Ready Gun",
     "category": "3D Art",
-    "thumbnail": "https://res.cloudinary.com/dpozqchuo/image/upload/f_auto,q_auto/v1765430538/Wireframe3_w6beeh.png",
+    "thumbnail": "https://res.cloudinary.com/dpozqchuo/image/upload/f_auto,q_auto/v1765430542/Render2_kypzbm.png",
     "images": [
       "https://res.cloudinary.com/dpozqchuo/image/upload/f_auto,q_auto/v1765430538/Wireframe3_w6beeh.png",
       "https://res.cloudinary.com/dpozqchuo/image/upload/f_auto,q_auto/v1765430538/Wireframe3_israig.jpg",
@@ -52,7 +64,7 @@ export const projects: Project[] = [
       "https://res.cloudinary.com/dpozqchuo/image/upload/f_auto,q_auto/v1765430543/Maps_s4ofem.png"
     ],
     "description": "High-quality 3D render of Game Ready Gun. Showcasing detailed modeling and texturing.",
-    "software": [],
+    "software": ["Maya", "Substance painter", "Marmoset toolbag"],
     "date": "Dec 2025",
     "likes": 0,
     "views": 0
@@ -61,7 +73,7 @@ export const projects: Project[] = [
     "id": "headphone",
     "title": "Headphone",
     "category": "3D Art",
-    "thumbnail": "https://res.cloudinary.com/dpozqchuo/image/upload/f_auto,q_auto/v1765430567/render6_Camera_1_lyrem1.png",
+    "thumbnail": "https://res.cloudinary.com/dpozqchuo/image/upload/f_auto,q_auto/v1765430565/render3_Camera_1_nulbxm.png",
     "images": [
       "https://res.cloudinary.com/dpozqchuo/image/upload/f_auto,q_auto/v1765430567/render6_Camera_1_lyrem1.png",
       "https://res.cloudinary.com/dpozqchuo/image/upload/f_auto,q_auto/v1765430566/render5_Camera_1_jwhdde.png",
@@ -72,7 +84,7 @@ export const projects: Project[] = [
       "https://res.cloudinary.com/dpozqchuo/image/upload/f_auto,q_auto/v1765430565/render1_Camera_1_xb25iy.png"
     ],
     "description": "High-quality 3D render of Headphone. Showcasing detailed modeling and texturing.",
-    "software": [],
+    "software": ["Maya", "Zbrush", "Substance painter", "Marmoset toolbag"],
     "date": "Dec 2025",
     "likes": 0,
     "views": 0
@@ -93,7 +105,7 @@ export const projects: Project[] = [
       "https://res.cloudinary.com/dpozqchuo/image/upload/f_auto,q_auto/v1765430598/IMG_3563_qtvheh.jpg"
     ],
     "description": "High-quality 3D render of Medicine cabinet. Showcasing detailed modeling and texturing.",
-    "software": [],
+    "software": ["Maya", "Zbrush", "Substance painter", "Marmoset toolbag"],
     "date": "Dec 2025",
     "likes": 0,
     "views": 0
@@ -102,7 +114,7 @@ export const projects: Project[] = [
     "id": "radio",
     "title": "Radio",
     "category": "3D Art",
-    "thumbnail": "https://res.cloudinary.com/dpozqchuo/image/upload/f_auto,q_auto/v1765431662/Wireframe1_camera1_FullQuality_pkypjh.png",
+    "thumbnail": "https://res.cloudinary.com/dpozqchuo/image/upload/f_auto,q_auto/v1765431659/Render2_camera1_FullQuality_pchrui.png",
     "images": [
       "https://res.cloudinary.com/dpozqchuo/video/upload/f_auto,q_auto/v1765430621/Truntable_vxqvjr.mp4",
       "https://res.cloudinary.com/dpozqchuo/video/upload/f_auto,q_auto/v1765430618/FINAL_usa8zq.mov",
@@ -115,7 +127,7 @@ export const projects: Project[] = [
       "https://res.cloudinary.com/dpozqchuo/image/upload/f_auto,q_auto/v1765430621/GREY_MODEL_tpzisf.png"
     ],
     "description": "High-quality 3D render of Radio. Showcasing detailed modeling and texturing.",
-    "software": [],
+    "software": ["Maya", "Substance painter", "Marmoset toolbag", "Photoshop"],
     "date": "Dec 2025",
     "likes": 0,
     "views": 0
@@ -134,7 +146,7 @@ export const projects: Project[] = [
       "https://res.cloudinary.com/dpozqchuo/image/upload/f_auto,q_auto/v1765430652/IMG_3544_bqmtqh.jpg"
     ],
     "description": "High-quality 3D render of War helmet. Showcasing detailed modeling and texturing.",
-    "software": [],
+    "software": ["Maya", "Substance painter", "Marmoset toolbag"],
     "date": "Dec 2025",
     "likes": 0,
     "views": 0
